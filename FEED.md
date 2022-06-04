@@ -1,27 +1,27 @@
-## How to include an app in Common Apps using feed.json: ##
+## Feed.json kullanılarak Ortak Uygulamalara bir uygulama nasıl eklenir: ##
 
-* You will need direct links for both x64 and x86 variants (if x64 or x86 is unavailable, just use either one)
-* Official app title
-* A tag, usually the app title - without spaces - preceded by a 'c'
-* A PNG image - needs to be up to 256x256, should not exceed 50kb in size and must be with transparent background
-* The group in which the app will be included to
+* Hem x64 hem de x86 varyantları için doğrudan bağlantılara ihtiyacınız olacak (x64 veya x86 kullanılamıyorsa, birini kullanın)
+* Resmi uygulama başlığı
+* Bir etiket, genellikle uygulama başlığı - boşluksuz - önünde bir 'c'
+* PNG resmi - en fazla 256x256 olmalı, boyutu 50 kb'yi geçmemeli ve şeffaf arka plana sahip olmalıdır
+* Uygulamanın dahil edileceği grup
 
-## Available groups: ##
+## Mevcut gruplar: ##
 
-* SystemTools
-* Internet
-* Coding
-* GraphicsSound
+* Sistem Araçları
+* İnternet
+* Kodlama
+* GrafikSes
 
-## Example: ##
+## Örnek: ##
 
-```json
+``` json
 {
-  "Title": "Google Chrome",
-  "Link": "<link_x86>",
+  "Başlık": "Google Chrome",
+  "Bağlantı": "<link_x86>",
   "Link64": "<link_x64>",
-  "Tag": "cChrome",
-  "Image": "<link_to_png>",
-  "Group": "Internet"
+  "Etiket": "cChrome",
+  "Resim": "<link_to_png>",
+  "Grup": "İnternet"
 }
 ```

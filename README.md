@@ -3,7 +3,7 @@
 </p>
 
 <p hizalama="center">
-<a href="https://github.com/Emre37destan/KralWinSP/releases/download/1.0/KralWinSP-1.0.exe" target="_blank">
+<a href="https://github.com/Emre37destan/KralWinSP/releases/download/2.0/KralWinSP-2.0.exe" target="_blank">
 <img src="https://raw.githubusercontent.com/Emre37destan/KralWinSP/master/download-button.png">
 <br>
 <img src="https://raw.githubusercontent.com/Emre37destan/KralWinSP/master/flags.png">

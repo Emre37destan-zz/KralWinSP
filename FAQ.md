@@ -1,34 +1,34 @@
-## [FAQ] Frequently Asked Questions ##
+## [SSS] Sık Sorulan Sorular ##
 
-- *Do I need to restart my computer for the changes to take effect?*<br>
-Absolutely, yes.
+- *Değişikliklerin etkili olması için bilgisayarımı yeniden başlatmam gerekiyor mu?*<br>
+Kesinlikle evet.
 
-- *Do I need to keep the app running in the background?*<br>
-No. You just need to enable your preferred options and restart.
+- *Uygulamayı arka planda çalışır durumda tutmam gerekiyor mu?*<br>
+Hayır. Tercih ettiğiniz seçenekleri etkinleştirmeniz ve yeniden başlatmanız yeterlidir.
 
-- *My Desktop files and documents got suddenly deleted! Why?*<br>
-You shouldn't **Uninstall OneDrive** on a Windows 10/11 with Microsoft-synced account setup.
-It's strongly advised to **Uninstall OneDrive** only on a fresh Windows installation, before
-setting up your Microsoft account.
+- *Masaüstü dosyalarım ve belgelerim aniden silindi! Neden?*<br>
+Microsoft ile eşitlenmiş hesap kurulumuna sahip bir Windows 10/11'de **OneDrive'ı kaldırmamalısınız**.
+Öncesinde, yalnızca yeni bir Windows kurulumunda **OneDrive'ı kaldırmanız** şiddetle tavsiye edilir.
+Microsoft hesabınızı ayarlama.
 
-- *How can I disable **Windows Defender** on Windows 10/11?*<br>
-The **Disable Windows Defender** toggle is working only on Windows 7/8/8.1.
-In order to effectively disable **Windows Defender** on Windows 10/11 you need to restart in safe-mode.
-You may easily do this just by executing the app with ```/restart=disabledefender```. This command
-will automatically restart in safe-mode, disable **Windows Defender** and restart in normal-mode_ again.
-You may enable **Windows Defender** again with ```/restart=enabledefender``` at any time.
+- *Windows 10/11'de **Windows Defender**'ı nasıl devre dışı bırakabilirim?*<br>
+**Windows Defender'ı Devre Dışı Bırak** geçişi yalnızca Windows 7/8/8.1'de çalışır.
+Windows 10/11'de **Windows Defender**'ı etkin bir şekilde devre dışı bırakmak için güvenli modda yeniden başlatmanız gerekir.
+Bunu, uygulamayı ```/restart=disabledefender``` ile çalıştırarak kolayca yapabilirsiniz. Bu komut
+güvenli modda otomatik olarak yeniden başlar, **Windows Defender**'ı devre dışı bırakır ve tekrar normal modda_ yeniden başlar.
+**Windows Defender**'ı istediğiniz zaman ```/restart=enabledefender``` ile tekrar etkinleştirebilirsiniz.
 
-- *Should I disable **System Restore**?*<br>
-It's up to you, but keep in mind that by disabling it your current backups will get deleted.
+- ***Sistem Geri Yükleme**'yi devre dışı bırakmalı mıyım?*<br>
+Bu size kalmış, ancak devre dışı bırakırsanız mevcut yedeklerinizin silineceğini unutmayın.
 
-- *Should I disable **Print Service** or **Fax Service**?*<br>
-In case you are actively using printer and/or fax devices, you shouldn't disable them.
+- ***Yazdırma Hizmetini** veya **Faks Hizmetini** devre dışı bırakmalı mıyım?*<br>
+Yazıcı ve/veya faks aygıtlarını aktif olarak kullanıyorsanız, bunları devre dışı bırakmamalısınız.
 
-- *My digital pen is not working, why?*<br>
-Reset **Disable Windows Ink**, restart your computer and your pen should be functional again.
+- *Dijital kalemim çalışmıyor, neden?*<br>
+**Windows Ink'i Devre Dışı Bırak**'ı sıfırlayın, bilgisayarınızı yeniden başlatın ve kaleminiz tekrar çalışır durumda olacaktır.
 
-- *My clipboard history stopped working, why?*<br>
-Reset **Disable Cloud Clipboard** and it's should be working normally.
+- *Pano geçmişim çalışmayı durdurdu, neden?*<br>
+**Bulut Panosunu Devre Dışı Bırak**'ı sıfırlayın ve normal şekilde çalışıyor olmalıdır.
 
-- *Should I disable **Sensor Services**?*<br>
-If your device is a tablet, has various sensors (proximity, auto-brightness, etc.) or a touch-screen, you shouldn't disable it.
+- ***Sensör Hizmetlerini** devre dışı bırakmalı mıyım?*<br>
+Cihazınız tablet ise, çeşitli sensörleri (yakınlık, otomatik parlaklık vb.) veya dokunmatik ekranı varsa, devre dışı bırakmamalısınız.
